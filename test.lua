@@ -3,10 +3,6 @@ print("Started") -- print started in console
 hook.Add( "OnPlayerChat", "AFKCheck", function( ply, strText, bTeam, bDead ) 
   strText = string.lower( strText ) -- make the string lower case
   if ((strText == "afk check") or (strText == "you here") or (strText == "are you here") or (strText == "you here?") or (strText == "are you here?")) then 
-
-    -- debug
-    -- print( "Hello worABld!" ) -- print Hello world to the console
-
     -- delay with a for loop cause im dumb
     local clock = os.clock
     function sleep(n)  -- seconds
@@ -22,7 +18,6 @@ hook.Add( "OnPlayerChat", "AFKCheck", function( ply, strText, bTeam, bDead )
     local response_number = math.random(1, 4)
     print(response_number)
     RunConsoleCommand("say", response_table[response_number])
-    -- end -- end of if
   end -- end of if
 end ) -- end of hook
 
