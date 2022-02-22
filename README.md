@@ -7,5 +7,5 @@
   * When you are in game type the following into console: lua_openscript_cl test.lua, then you should be meeted with a response in console of "started".
 
 * Note
-  * because I couldn't figure out the other delay methods for gmod I ended up using OS functions to sleep the PC. It may seem like your pc/game froze but thats just the 3 second sleep delay so the response isnt immediate
+  * I couldn't figure out the other delay methods for gmod I ended up using OS functions to sleep the PC. It may seem like your pc/game froze but thats just the 3 second sleep delay so the response isnt immediate
   * I am also not response for how you use the script or if you get banned on any server. Use at your own risk
