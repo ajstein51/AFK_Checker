@@ -1,6 +1,6 @@
 # AFK_Checker
 * Description
-  * This client side script will see if someone is AFK checking you on a gmod server. It only checks a few different variations of a typed "you here" related questions. It'll print one of the responses within the array response_table. To add more variations that you maybe asked just add more to the if statement or have it check substrings. To add more responses that you you will print out just add more strings tot he table and increase the math.random() variable
+  * This client side script will see if someone is AFK checking you on a gmod server. It only checks a few different variations of a typed "you here" related questions. It'll print one of the responses within the array response_table. To add more variations that you maybe asked just add more to the if statement or have it check substrings. To add more responses that you will print out just add more strings to the table and increase the math.random() variable
 
 * How to Install and Launch
   * Add the file to your lua directory in your gmod folder   
